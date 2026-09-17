@@ -154,7 +154,7 @@ export default function Home() {
   const [mounted, setMounted] = useState(false);
   const [url, setUrl] = useState("");
   const [scanMode, setScanMode] = useState("Full Site (Fast Multi-Page)");
-  const [maxPages, setMaxPages] = useState(1000);
+  const [maxPages, setMaxPages] = useState(20);
   const [loading, setLoading] = useState(false);
   const [auditData, setAuditData] = useState<AuditData | null>(null);
   const [error, setError] = useState("");
